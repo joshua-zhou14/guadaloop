@@ -22,7 +22,7 @@ for x in data.index:
 # data = pd.read_csv('data.csv', skiprows=list, usecols=cols)
 # print(data.info())
 
-# data.to_csv('data.csv', encoding='utf-8', index=False)
+data.to_csv('data.csv', encoding='utf-8', index=False)
 
 tmilekey = ['tmiles_2017', 'tmiles_2018', 'tmiles_2019', 'tmiles_2020', 'tmiles_2021', 'tmiles_2022', 'tmiles_2023',
             'tmiles_2025', 'tmiles_2030', 'tmiles_2035', 'tmiles_2040', 'tmiles_2045', 'tmiles_2050']
