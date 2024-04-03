@@ -49,9 +49,6 @@ for x in data.index:
 
 print(tmile)
 print(tons)
-sum = 0
-for i in tons:
-    sum += i
 print(sum)
 print("low: " + str(distbandlow) + ", high: " + str(distbandhigh))
 
